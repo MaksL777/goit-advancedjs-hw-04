@@ -10,7 +10,8 @@ export default defineConfig(({ command }) => {
     define: {
       [command === 'serve' ? 'global' : '_global']: {},
     },
-    root: 'src',
+    base: '/goit-advancedjs-hw-04/',
+    root: 'src'
     build: {
       sourcemap: true,
       rollupOptions: {
